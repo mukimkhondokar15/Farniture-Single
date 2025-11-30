@@ -1,0 +1,544 @@
+/* -------------------font link start ---------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* -------------------------------------commom guide----------------------- --------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul, ol{
+     list-style: none;
+}
+
+
+img{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+a{
+   text-decoration: none !important;
+    display: inline-block;
+}
+
+
+h1, h2, h3, h4, h5, h6, p, ul, ol{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    /* ----------------------colour family-------------------------------- */
+    --primarycolor: #333333;
+    --brandcolour: #054C73;
+    --barndcolour2: #333333;
+    /*--------------------------- font family--------------------------------------- */
+    --montserrat: "Montserrat", sans-serif;
+}
+/* ----------------------------------common work done--------------------------------------- */
+
+/* -----------------------------navbar part working------------------------------ */
+.main_Farnitue img{
+    width: 167px;
+}
+
+.main_Farnitue ul li a{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--montserrat);
+    color: var(--primarycolor);
+    padding: 0 !important;
+    position: relative;
+}
+
+.main_Farnitue ul{
+    gap: 70px;
+}
+
+.main_Farnitue{
+    padding-top: 43px;
+    padding-bottom: 38px;
+}
+
+.main_Farnitue ul li a::before{
+    content:'';
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color:var(--brandcolour);
+    /* transition: all linear .4s; */
+}
+
+.main_Farnitue ul li a:hover:before{
+    width: 100%;
+}
+
+.main_Farnitue ul li a::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    background-color:var(--brandcolour);
+    /* transition: all linear .4s; */
+}
+
+.main_Farnitue ul li a:hover::after{
+    width: 100%;
+}
+/* ---------------------------navbar part done------------------------------------- */
+ /* -----------------------------------banner part working--------------------- */
+#banner{
+    background-image: url('../image/banner.png');
+    height: 749px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 33px;
+    padding-top: 152px;
+}
+
+.banner_text{
+    width: 643px;
+    background-color: #DFE9F4;
+    padding: 40px 70px 38px 27px;
+    border-radius: 10px;
+    margin-left: auto;
+}
+
+.banner_text h2{
+    width: 126px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--montserrat);
+    color: var(--barndcolour2);
+    padding-top: 40px;
+}
+
+.banner_text h1{
+    width: 421px;
+    font-size: 52px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    margin-top: 20px;
+}
+
+.banner_text p{
+    width: 546px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--montserrat);
+    color:var(--barndcolour2);
+    margin-top: 20px;
+}
+
+.banner_text a{
+    width: 229px;
+    height: 72px;
+    background-color: var(--brandcolour);
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+/* -----------------------------navbar work done------------------------- */
+/* ------------------------services part working------------------------------ */
+.service_option .service_image1{
+    width: 84px;
+}
+
+.service_option .service_text h2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family:var(--montserrat);
+    color: var(--primarycolor);
+}
+
+.service_option .service_text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    color: var(--primarycolor);
+    margin-bottom: 10px;
+}
+
+.service_option{
+    display: flex;
+    gap: 27px;
+}
+
+#Services{
+    background-color: #F2F5FF;
+    padding-top: 46px;
+    padding-bottom: 49px;
+}
+/* -----------------------------------services part done-------------------- */
+/*---------------------------------Inspiration Collection part working----------------------  */
+.common_head h2{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: var(--primarycolor);
+    margin-bottom: 13px;
+}
+
+
+.common_head p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--primarycolor);
+    color: var(--primarycolor);
+
+}
+
+#Collection{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.collecation_single_image{
+    margin-top: 94px;
+    transition: all linear .4s;
+}
+
+.collecation_single_image:hover{
+    margin-top: 19px;
+    transition: all linear .4s;
+}
+/* --------------------------Beautify Your Space part working-------------------------------- */
+#Beautify .Beautify_text h2{
+     font-size: 32px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: var(--primarycolor);
+}
+
+#Beautify .Beautify_text p{
+    width: 489px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--primarycolor);
+    color: #666;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.Beautify_text a{
+    width: 228px;
+    height: 68px;
+    background-color: var(--brandcolour);
+    font-size:16px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    color:#fff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Beautify .Beautify_text{
+    margin-top: 237px;
+}
+
+#Beautify{
+    background-color: #F2F5FF;
+    padding-top: 58px;
+    padding-bottom: 62px;
+    margin-top: 66px;
+}
+/* -----------------------------------Beautify Your Space part done--------------------------- */
+/* -----------------------------------Browse The Range part working-------------------------------- */
+.Range_text h2{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: var(--primarycolor);
+    text-align: center;
+}
+
+.Range_text p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    color: #666;
+    text-align: center;
+}
+
+#Range .Range_text{
+    margin-top: 55px;
+}
+
+.range_image h2{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--montserrat);
+    color: var(--primarycolor);
+    text-align: center;  
+}
+
+.range_image{
+    width: 381px;
+}
+
+.range_image{
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: all linear .5s;
+
+}
+.range_image::after{
+    content: '';
+    width: 100%;
+    height: 93%;
+    background-color: rgba(0, 0, 0, 0.30);
+    top: 0;
+    right: -100%;
+    position: absolute;
+    border: solid;
+}
+
+.range_image:hover::after{
+    right:0;
+}
+  
+.range_image:hover{
+    margin-top: 19px;
+    transition: all linear .4s;
+}
+/* ------------------------------Browse The Range part done--------------------------------- */
+/* --------------------------------How It Works part working-------------------------------- */
+.works_text h2{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: var(--montserrat);
+    color: var(--primarycolor);
+}
+
+.works_text p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    color: var(--primarycolor);
+    margin-top: 20px;
+}
+
+#works{
+    text-align: center;
+    padding-top: 121px;
+}
+
+
+.image_text h2{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--montserrat);
+    color: var(--primarycolor);
+    margin-top: 30px;
+}
+
+.image_text p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    color: var(--primarycolor);
+    margin-top: 10px;
+}
+
+.work_image{
+    margin-top: 50px;
+}
+
+.work_image::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#00000041, #000000fd);
+    position: absolute;
+    border-radius: 12px;
+    top: 100%;
+    left: 0;
+    transition: all linear .4s;
+}
+
+.work_image:hover::after{
+    top: 0;
+}
+
+.work_image ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-size: 30px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    opacity: 0;
+}
+
+.work_image:hover ul{
+    bottom: 30px;
+    transition: all linear .7s;
+    opacity: 100;
+}
+
+.work_image ul li a{
+    color: #fff;
+}
+
+.work_image{
+    position: relative;
+    overflow: hidden;
+}
+
+.work_image h3{
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: var(--primarycolor);
+    color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 15px solid #fff;
+}
+
+.works_option{
+    width: 381px;
+    position: relative;
+    z-index: 1;
+}
+
+/* ---------------------------How It Works part done--------------------------------- */
+/* ----------------------------Join Our Mailing List part working------------------------------ */
+.mail_text h2{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: var(--primarycolor);
+}
+
+.mail_text p{
+    width: 500px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    color: var(--primarycolor);
+    margin-top: 10px; 
+    margin: 0 auto;
+}
+
+.mail_text button{
+    width: 153px;
+    height: 67px;
+    background-color: var(--brandcolour);
+    color: #fff;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+}
+
+#mail{
+    text-align: center;
+    padding-top: 59px;
+    padding-bottom: 64px;
+    margin-top: 198px;
+    background-color: #F2F5FF;
+}
+
+.mail_text input{
+    width: 486px;
+    height: 67px;
+    border-radius: 3px;
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+.mail_text ::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    color: var(--primarycolor);
+}
+/* ------------------------------Join Our Mailing List part done--------------------------------- */
+/* --------------------------------footer part working----------------------------------------- */
+.footer_text h2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: #fff;
+}
+
+.footer_text h3{
+     font-size: 24px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: #fff;
+    margin-top: 21px;
+}
+
+.footer_text p{
+    width: 397px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    color: #fff;
+    line-height: 35px;
+    margin-top: 34px;
+}
+
+#Instagram_footer{
+    background-color: #03344F;
+    padding-top: 49px;
+    padding-bottom: 127px;
+    
+}
+
+.shop_image h2{
+    width: 200px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: #fff;
+}
+
+.footer_option{
+    display: flex;
+    gap: 26px;
+}
+
+.shopping_img img{
+    width: 175px;
+    margin-top: 34px;
+}
+
+.shop_part_image{
+    display: flex;
+    gap: 20px;
+}
+/* -----------------------------------footer part done------------------------------- */

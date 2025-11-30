@@ -1,0 +1,88 @@
+/* --------------------------extra small part working------------------------- */
+@media (max-width:575.98px){
+    .main_Farnitue img {
+	width: 110px;
+} 
+.banner_text h1 {
+	width: 222px;
+	font-size: 27px;
+	margin-top: 12px;
+}
+.banner_text a {
+	width: 184px;
+	height: 44px;
+	margin-top: 16px;
+}
+.banner_text a {
+	width: 171px;
+	height: 35px;
+	border-radius: 4px;
+	font-size: 11px;
+	margin-top: 16px;
+}
+.service_option .service_text h2 {
+	font-size: 12px;
+}
+.service_option .service_text p {
+	font-size: 11px;
+}
+img {
+	width: 65%;
+}
+
+.common_head h2 {
+	font-size: 18px;
+}
+
+.common_head p {
+	font-size: 15px;
+}
+
+.row  * {
+	width: 80%;
+}
+
+#Beautify .Beautify_text h2 {
+	font-size: 20px;
+}
+
+#Beautify .Beautify_text p {
+	width: 370px;
+	font-size: 15px;
+	margin-top: 9px;
+	margin-bottom: 14px;
+}
+
+.Beautify_text a {
+	width: 156px;
+	height: 36px;
+	font-size: 12px;
+	border-radius: 4px;
+}
+
+#Beautify {
+	padding-top: 49px;
+	padding-bottom: 6px;
+	margin-top: 68px;
+}
+.Range_text h2 {
+	font-size: 22px;
+}
+.Range_text p {
+	font-size: 15px;
+}
+#works {
+	padding-top: 58px;
+}
+
+.banner_text {
+	padding: 11px 18px 16px 19px;
+}
+
+#Services {
+	padding-top: 16px;
+	padding-bottom: 13px;
+}
+}
+/* ----------------------------------extra small part done------------------------ */
+/* ------------------------small part working-------------------- */
